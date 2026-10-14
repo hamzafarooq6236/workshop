@@ -18,7 +18,7 @@ permissions:
 env:
   SITE_NAME: "CHANGE-ME"       # your website name / Linux username
   DEPLOY_PORT: "2280"
-  SOURCE_DIR: "public/"
+  SOURCE_DIR: "."
 
 jobs:
   # 1. Fail the pipeline if any PHP file has a syntax error
